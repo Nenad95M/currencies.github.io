@@ -6,6 +6,7 @@
   padding: 0;
   margin: 0;
   list-style: none;}
+  
   a, a:hover, a:visited, a:active {
     color: inherit;
     text-decoration: none;
@@ -30,7 +31,6 @@ body{
 display: grid;
 grid-template-columns: repeat(1fr, 8);
 column-gap: 1rem;
-overflow-x: hidden;
 
 }
 /*buttons*/
@@ -40,6 +40,7 @@ overflow-x: hidden;
   background-color: rgb(255, 255,255);
   border: 1px solid rgb(255, 136,14);
   cursor: pointer;
+  text-align: center;
 }
 .btn-white:hover{
   background-color: rgb(214, 212, 212);
@@ -52,6 +53,7 @@ overflow-x: hidden;
   color:rgb(255, 255, 255);
   border-radius: 1rem;
   cursor: pointer;
+  text-align: center;
 
 }
 .btn-orange:hover{
@@ -120,7 +122,7 @@ float: right;
 /*banner*/
 .banner{
 
-  background: url('../img/banner.jpg') center center/cover;
+  background: url('../img/banner.jpg') no-repeat center center/cover;
 
 }
  .banner-btn{
